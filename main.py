@@ -12,7 +12,7 @@ from mmcore.services.service import RpycService
 import sys
 
 
-class MyService(RpycService, configs='http://storage.yandexcloud.net/box.contextmachine.space/share/configs/configs.yaml'):
+class MyService(RpycService, configs='http://storage.yandexcloud.net/box.contextmachine.space/share/configs/fcd-service.yaml'):
     ...
 if __name__ == "__main__":
     sys.exit(MyService.run())
